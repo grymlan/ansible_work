@@ -1,0 +1,6 @@
+---
+- name: Test connectivity to Windows server
+  hosts: infinitt
+  tasks:
+    - name: Ping Windows
+      win_ping:
